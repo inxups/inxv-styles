@@ -1,0 +1,11 @@
+spec: style/v0.3
+name: teach-mode
+version: 0.1.0
+description: 把 agent 从结果导向转为教学导向：任务前摸底建知识边界图，执行中只讲解用户不会的节点
+authors: [inxups]
+settings:
+  - name: language
+    description: 讲解使用的语言
+    default: zh-CN
+rules:
+  - from: rules/*.md
